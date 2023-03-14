@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-  height: 85px;
+  height: 80px;
   width: 100%;
   background: #24292c;
 }
@@ -15,11 +15,10 @@ body {
   align-items: flex-start;
   padding: 0px;
   gap: 40px;
-  margin-left: 10%;
   position: absolute;
   width: 688px;
   height: 24px;
-  left: 279px;
+  left: 19%;
   top: 20px;
 }
 
@@ -27,13 +26,13 @@ body {
   font-family: "PT Root UI";
   font-style: normal;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 18px;
   line-height: 150%;
   color: #ffffff;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-right: 10%;
+  
 }
 
 .staff {
@@ -43,7 +42,7 @@ body {
   font-family: "PT Root UI";
   font-style: normal;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 18px;
   line-height: 150%;
 
   color: #ffffff;
@@ -52,7 +51,7 @@ body {
   order: 1;
   flex-grow: 0;
 
-  margin-right: 10%;
+  
 }
 
 .statistics {
@@ -62,7 +61,7 @@ body {
   font-family: "PT Root UI";
   font-style: normal;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 18px;
   line-height: 150%;
 
   color: #ffffff;
@@ -71,7 +70,6 @@ body {
   order: 2;
   flex-grow: 0;
 
-  margin-right: 10%;
 }
 
 .applications {
@@ -81,7 +79,7 @@ body {
   font-family: "PT Root UI";
   font-style: normal;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 18px;
   line-height: 150%;
 
   color: #ffffff;
@@ -90,7 +88,6 @@ body {
   order: 3;
   flex-grow: 0;
 
-  margin-right: 10%;
 }
 
 .chats {
@@ -100,7 +97,7 @@ body {
   font-family: "PT Root UI";
   font-style: normal;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 18px;
   line-height: 150%;
 
   color: #ffffff;
@@ -109,7 +106,6 @@ body {
   order: 4;
   flex-grow: 0;
 
-  margin-right: 10%;
 }
 
 .customers {
@@ -119,7 +115,7 @@ body {
   font-family: "PT Root UI";
   font-style: normal;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 18px;
   line-height: 150%;
 
   color: #ffffff;
@@ -128,7 +124,6 @@ body {
   order: 5;
   flex-grow: 0;
 
-  margin-right: 10%;
 }
 
 .settings {
@@ -138,7 +133,7 @@ body {
   font-family: "PT Root UI";
   font-style: normal;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 20px;
   line-height: 150%;
 
   color: #ffffff;
@@ -147,7 +142,7 @@ body {
   order: 6;
   flex-grow: 0;
 
-  margin-right: 10%;
+  
 }
 
 a:hover {
@@ -186,19 +181,19 @@ span {
 
 .user {
   position: absolute;
-  left: 85%;
-  top: 1%;
+  left: 83%;
+  top: 4%;
 }
 
 .name {
   position: absolute;
-  left: 89%;
-  top: 2%;
+  left: 87%;
+  top: 4%;
 
   font-family: "PT Root UI";
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 150%;
 
   color: white;
@@ -206,8 +201,8 @@ span {
 
 .vector {
   position: absolute;
-  left: 94.5%;
-  top: 2.5%;
+  left: 95%;
+  top: 4%;
 }
 
 .caption {
@@ -223,7 +218,7 @@ span {
   font-family: "PT Root UI";
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 30px;
   line-height: 40px;
   color: #0c1116;
 
@@ -233,7 +228,7 @@ span {
   font-family: "PT Root UI";
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 25px;
   line-height: 150%;
 
 
@@ -259,7 +254,7 @@ border-radius: 24px;
 
 .main_line {
     width: 100%;
-    height: 150px;
+    height: 110px;
     background: #F8FBFC;
     border-bottom: 1px solid #DCE8ED;
     border-top-left-radius : 12px;
@@ -269,7 +264,7 @@ border-radius: 24px;
 .positions {
     display: flex;
     width: 100%;
-    overflow: hidden;
+   
 }
 
 .app {
@@ -280,7 +275,7 @@ p {
     font-family: 'PT Root UI';
 font-style: normal;
 font-weight: 500;
-font-size: 25px;
+font-size: 15px;
 line-height: 114%;
 color: #0C1116;
 }
@@ -289,8 +284,8 @@ input {
     border:none;
 box-shadow: 0px 3px 6px rgba(0, 23, 33, 0.04), 0px 6px 12px rgba(0, 23, 33, 0.04), 0px 10px 20px rgba(0, 23, 33, 0.04), 0px 0px 1px rgba(0, 98, 140, 0.7);
 border-radius: 8px;
-width: 156px;
-height: 40px;
+width: 100px;
+height: 35px;
 background: #FFFFFF;
 }
 
@@ -304,23 +299,23 @@ input :focus, :active {
 } 
 
 .title {
-    margin-left: 6%;
+    margin-left: 3%;
 }
 
 .date{
-    margin-left: 6%; 
+    margin-left: 3%; 
 }
 
 .contractor {
-    margin-left: 6%;   
+    margin-left: 3%;   
 }
 
 .priority {
-    margin-left: 6%;   
+    margin-left: 3%;   
 }
 
 .status {
-    margin-left: 6%;   
+    margin-left: 3%;   
 }
 
 .line  {
@@ -328,6 +323,7 @@ input :focus, :active {
     width: 100%;
     border-bottom: 1px solid #F0F5F8;
     cursor: pointer;
+    height: 70px;
    
 }
 
@@ -340,32 +336,32 @@ input :focus, :active {
     font-family: 'PT Root UI';
 font-style: normal;
 font-weight: 400;
-font-size: 30px;
+font-size: 15px;
 line-height: 114%;
 
 text-align: right;
 
 color: #0C1116;
 
-width: 180px;
+
 padding-top: 25px;
-width: 180px;
+width: 12%;
 
 }
 
 .problem {
     font-family: 'PT Root UI';
 font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 114%;
+font-weight: 300;
+font-size: 11px;
+
 
 color: #0C1116;
 
 padding-top: 30px;
-margin-left: 7%;
-height: 80px;
-width: 250px;
+margin-left: 4%;
+
+width: 180px;
 
 }
 
@@ -373,13 +369,13 @@ width: 250px;
     font-family: 'PT Root UI';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 12px;
 line-height: 114%;
 
 color: #0C1116;
 
 padding-top: 30px;
-margin-left: 7%;
+
 height: 70px;
 width: 150px;
 }
@@ -388,12 +384,12 @@ width: 150px;
     font-family: 'PT Root UI';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
-line-height: 114%;
+font-size: 12px;
+
 
 color: #0C1116;
 padding-top: 30px;
-margin-left: 6%;
+
 height: 70px;
 width: 150px;
 }
@@ -402,7 +398,7 @@ width: 150px;
     font-family: 'PT Root UI';
 font-style: normal;
 font-weight: 400;
-font-size: 22px;
+font-size: 15px;
 line-height: 114%;
 
 text-align: right;
@@ -410,7 +406,7 @@ text-align: right;
 
 color: #0C1116;
 padding-top: 30px;
-margin-left: 16%;
+
 height: 70px;
 width: 5px;
 }
@@ -419,12 +415,12 @@ width: 5px;
     font-family: 'PT Root UI';
 font-style: normal;
 font-weight: 400;
-font-size: 25px;
+font-size: 15px;
 line-height: 114%;
 
 color: #F2C94C;
 padding-top: 30px;
-margin-left: 7%;
+margin-left: 12%;
 height: 70px;
 width: 150px;
 }
