@@ -151,6 +151,8 @@ a:hover {
 
 a {
   cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
 
 .tech {
@@ -250,6 +252,7 @@ height: 100%;
 background: #FFFFFF;
 border: 1px solid #DDE7EC;
 border-radius: 24px;
+
 }
 
 .main_line {
@@ -425,3 +428,19 @@ height: 70px;
 width: 150px;
 }
 
+footer {
+
+  height: 50px;
+  width: 100%;
+  background: #24292c;
+}
+
+.cont {
+  margin-left: 90%;
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  color: #ffffff;
+}
