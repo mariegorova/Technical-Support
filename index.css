@@ -444,3 +444,71 @@ footer {
   line-height: 120%;
   color: #ffffff;
 }
+
+.pages {
+margin-left: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.page {
+ 
+font-family: 'PT Root UI';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 114%;
+color: black;
+margin-right: 80%;
+
+}
+
+.page:hover {
+  cursor: pointer;
+  color: #00a6ed;
+}
+
+.output {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.output_by {
+
+width: 82px;
+height: 16px;
+
+
+font-family: 'PT Root UI';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 114%;
+
+margin-left: 70%;
+
+color: black;
+}
+
+.how_much {
+  box-sizing: border-box;
+
+position: absolute;
+width: 56px;
+height: 32px;
+left: 910px;
+
+
+background: #FFFFFF;
+
+
+border: 1px solid #CDDBE4;
+border-radius: 8px;
+
+font-family: 'PT Root UI';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 114%;
+text-align: center;
+}
