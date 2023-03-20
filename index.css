@@ -18,108 +18,60 @@ body {
   position: absolute;
   width: 688px;
   height: 24px;
-  left: 19%;
+  left: 30%;
   top: 20px;
 }
 
-.main_page {
+.header_item {
   font-family: "PT Root UI";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 150%;
   color: #ffffff;
+}
+
+.main_page {
   flex: none;
   order: 0;
   flex-grow: 0;
-  
 }
 
 .staff {
   width: 35px;
   height: 24px;
-
-  font-family: "PT Root UI";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 150%;
-
-  color: #ffffff;
-
   flex: none;
   order: 1;
   flex-grow: 0;
-
-  
 }
 
 .statistics {
   width: 68px;
   height: 24px;
-
-  font-family: "PT Root UI";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 150%;
-
-  color: #ffffff;
-
   flex: none;
   order: 2;
   flex-grow: 0;
-
 }
 
 .applications {
   width: 89px;
   height: 24px;
-
-  font-family: "PT Root UI";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 150%;
-
-  color: #ffffff;
-
   flex: none;
   order: 3;
   flex-grow: 0;
-
 }
 
 .chats {
   width: 42px;
   height: 24px;
-
-  font-family: "PT Root UI";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 150%;
-
-  color: #ffffff;
-
   flex: none;
   order: 4;
   flex-grow: 0;
-
 }
 
 .customers {
   width: 79px;
   height: 24px;
-
-  font-family: "PT Root UI";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 150%;
-
-  color: #ffffff;
-
   flex: none;
   order: 5;
   flex-grow: 0;
@@ -129,20 +81,9 @@ body {
 .settings {
   width: 61px;
   height: 24px;
-
-  font-family: "PT Root UI";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 150%;
-
-  color: #ffffff;
-
   flex: none;
   order: 6;
   flex-grow: 0;
-
-  
 }
 
 a:hover {
@@ -160,7 +101,6 @@ a {
   left: 3.33%;
   right: 92.43%;
   top: 1%;
-
   font-family: "Gilroy-Bold", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -187,25 +127,6 @@ span {
   top: 4%;
 }
 
-.name {
-  position: absolute;
-  left: 87%;
-  top: 4%;
-
-  font-family: "PT Root UI";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 150%;
-
-  color: white;
-}
-
-.vector {
-  position: absolute;
-  left: 95%;
-  top: 4%;
-}
 
 .caption {
   width: 80%;
@@ -223,27 +144,21 @@ span {
   font-size: 30px;
   line-height: 40px;
   color: #0c1116;
-
+  padding-right: 2%;
 }
 
 .update {
   font-family: "PT Root UI";
   font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 150%;
-
-
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
   color: #222223;
-  background: #FFFFFF;
-border: 1px solid #CDDBE4;
-border-radius: 12px;
-padding-left: 1.5%;
-padding-right: 1.5%;
+  padding-right: 2%;
+ }
+ 
 
-}
-
-.table {
+table {
     box-sizing: border-box;
 width: 80%;
 margin: auto;
@@ -251,18 +166,12 @@ margin-top: 1%;
 height: 100%;
 background: #FFFFFF;
 border: 1px solid #DDE7EC;
-border-radius: 24px;
+border-radius: 20px;
+border: 1px solid #DCE8ED;
+
 
 }
 
-.main_line {
-    width: 100%;
-    height: 110px;
-    background: #F8FBFC;
-    border-bottom: 1px solid #DCE8ED;
-    border-top-left-radius : 12px;
-    border-top-right-radius: 12px;
-}
 
 .positions {
     display: flex;
@@ -270,12 +179,9 @@ border-radius: 24px;
    
 }
 
-.app {
-    margin-left: 2%;
-}
 
-p {
-    font-family: 'PT Root UI';
+td {
+font-family: 'PT Root UI';
 font-style: normal;
 font-weight: 500;
 font-size: 15px;
@@ -292,34 +198,15 @@ height: 35px;
 background: #FFFFFF;
 }
 
-input :hover{
+input:hover{
     outline: 0;
     outline-offset: 0;
 }
 
-input :focus, :active {
+input:focus, input:active {
    outline-color: #00a6ed;
 } 
 
-.title {
-    margin-left: 3%;
-}
-
-.date{
-    margin-left: 3%; 
-}
-
-.contractor {
-    margin-left: 3%;   
-}
-
-.priority {
-    margin-left: 3%;   
-}
-
-.status {
-    margin-left: 3%;   
-}
 
 .line  {
     display: flex;
@@ -327,122 +214,39 @@ input :focus, :active {
     border-bottom: 1px solid #F0F5F8;
     cursor: pointer;
     height: 70px;
-   
+
 }
 
-.line:hover {
+tr:hover {
     background: #F3F7F9;
-}
-
-.number {
     
-    font-family: 'PT Root UI';
+}
+
+
+.menu_item {
+  font-family: 'PT Root UI';
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 114%;
 
-text-align: right;
-
-color: #0C1116;
-
-
-padding-top: 25px;
-width: 12%;
-
 }
 
-.problem {
-    font-family: 'PT Root UI';
-font-style: normal;
-font-weight: 300;
-font-size: 11px;
-
-
-color: #0C1116;
-
-padding-top: 30px;
-margin-left: 4%;
-
-width: 180px;
-
+.red {
+  color: red;
 }
 
-.when {
-    font-family: 'PT Root UI';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 114%;
-
-color: #0C1116;
-
-padding-top: 30px;
-
-height: 70px;
-width: 150px;
+.blue {
+  color:#2D9CDB
 }
 
-.person {
-    font-family: 'PT Root UI';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-
-
-color: #0C1116;
-padding-top: 30px;
-
-height: 70px;
-width: 150px;
+.yellow {
+  color:  #F2C94C;
+  ;
 }
 
-.prior {
-    font-family: 'PT Root UI';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 114%;
-
-text-align: right;
-
-
-color: #0C1116;
-padding-top: 30px;
-
-height: 70px;
-width: 5px;
-}
-
-.status_color {
-    font-family: 'PT Root UI';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 114%;
-
-color: #F2C94C;
-padding-top: 30px;
-margin-left: 12%;
-height: 70px;
-width: 150px;
-}
-
-footer {
-
-  height: 50px;
-  width: 100%;
-  background: #24292c;
-}
-
-.cont {
-  margin-left: 90%;
-  font-family: "PT Root UI";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 120%;
-  color: #ffffff;
+.green {
+  color:green;
 }
 
 .pages {
@@ -510,5 +314,18 @@ font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 114%;
-text-align: center;
 }
+
+footer {
+  background: #24292c;
+}
+
+td, th {
+ padding: 1%;
+  border: 1px solid #F0F5F8; /* Параметры рамки */
+ }
+
+ table {
+  border-radius: 20px;
+  border-collapse: collapse; /* Убираем двойные линии между ячейками */
+ }
